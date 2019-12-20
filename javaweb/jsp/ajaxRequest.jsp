@@ -26,8 +26,9 @@
 					//发送请求
 				if(window.XMLHttpRequest){
 					ajax=new XMLHttpRequest();
-				}else if(window.ActiveXObject){
-					ajax=new ActiveXObject("Maxm12.XMLHTTP");
+				}else {
+					alert("当前浏览器不支持本网站!;
+					return;
 				}
 				ajax.onreadystatechange=function(){
 					
