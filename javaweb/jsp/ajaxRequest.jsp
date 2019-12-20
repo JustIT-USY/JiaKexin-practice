@@ -27,7 +27,7 @@
 				if(window.XMLHttpRequest){
 					ajax=new XMLHttpRequest();
 				}else {
-					alert("当前浏览器不支持本网站!;
+					alert("当前浏览器不支持本网站!");
 					return;
 				}
 				ajax.onreadystatechange=function(){
